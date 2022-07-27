@@ -1,0 +1,24 @@
+@include lib<std>
+
+class Point{
+    int x;
+    int y;
+    init["get", "set"](_X,_y){
+        if (init == "get")
+        {
+            (_x) -> return x
+            (_y) -> return y
+        }
+        else if (init == "set")
+        {
+            x = _x
+            y = _y
+        }
+    }
+    add(y)
+    
+}
+
+func Main(stk0){
+    print("Hello World")
+}
